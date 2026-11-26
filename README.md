@@ -28,11 +28,23 @@ python3 tests/test_free.py
 
 3. Start a new session and ask: "de-slop my README" or "write the PR description in plain words".
 
+**With the skills CLI (Claude Code, Cursor, Codex and more):**
+
+```bash
+npx skills add tidybytetools/anti-slop-rules
+```
+
 **Claude Code plugin marketplace:**
 
 ```text
 /plugin marketplace add tidybytetools/anti-slop-rules
 /plugin install anti-slop-rules@tidybytetools-anti-slop
+```
+
+**Gemini CLI:**
+
+```bash
+gemini extensions install https://github.com/tidybytetools/anti-slop-rules
 ```
 
 ## A real example
@@ -58,6 +70,7 @@ QuickCSV cleans messy CSV files from the command line: it fixes broken quotes, t
 | `slop-rules.md` | 12 writing rules. Paste them into CLAUDE.md, AGENTS.md or any agent instructions. |
 | `templates/anti-slop.mdc` | The same rules as a Cursor rule. Copy it to `.cursor/rules/`. |
 | `templates/AGENTS-anti-slop-block.md` | A short block for AGENTS.md (Codex and other tools). |
+| `GEMINI.md`, `gemini-extension.json` | The same rules as a Gemini CLI extension. |
 | `skills/de-slop-lite/SKILL.md` | A skill that rewrites text in plain words and keeps your facts, commands and code the same. |
 | `tests/test_free.py` | The tests. Run `python3 tests/test_free.py`. |
 

@@ -1,0 +1,6 @@
+{
+  "name": "anti-slop-rules",
+  "version": "1.1.0",
+  "description": "12 plain-writing rules so the agent writes READMEs, docs, commits and PR text in plain words. Instructions only; no checker.",
+  "contextFileName": "GEMINI.md"
+}

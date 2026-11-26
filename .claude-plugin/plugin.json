@@ -1,0 +1,10 @@
+{
+  "name": "anti-slop-rules",
+  "description": "12 plain-writing rules and a de-slop skill so agents write READMEs, docs, commits and PR text in plain words. Prompt-only (no checker script).",
+  "version": "1.0.0",
+  "author": { "name": "Tidy Byte Tools", "url": "https://tidybytetools.github.io" },
+  "homepage": "https://tidybytetools.github.io/tools/anti-slop-rules-free/",
+  "repository": "https://github.com/tidybytetools/anti-slop-rules",
+  "license": "MIT",
+  "keywords": ["anti-slop", "claude-code", "cursor", "agent-skill", "documentation"]
+}

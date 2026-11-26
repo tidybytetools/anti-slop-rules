@@ -1,0 +1,12 @@
+{
+  "name": "tidybytetools-anti-slop",
+  "description": "Free plain-writing rules and a de-slop skill from Tidy Byte Tools",
+  "owner": { "name": "Tidy Byte Tools" },
+  "plugins": [
+    {
+      "name": "anti-slop-rules",
+      "source": "./",
+      "description": "12 plain-writing rules and a de-slop skill for READMEs, docs, commits and PR text. Prompt-only; no checker."
+    }
+  ]
+}

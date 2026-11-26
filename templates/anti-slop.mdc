@@ -1,0 +1,16 @@
+---
+description: Plain-writing rules for docs, READMEs, commit messages and PR text
+globs: ["**/*.md", "**/*.mdx", "**/*.rst", "**/*.txt"]
+alwaysApply: false
+---
+
+When you write or edit prose in this project:
+
+1. Start with the answer or the fact. No `Certainly!` or warm-up lines.
+2. Plain words: `use` (not `leverage` or `utilize`), `start` (not `embark`), `many` (not `a plethora of`).
+3. No hype: no `blazing fast`, `seamless`, `game-changer`, `revolutionary`. Give numbers you measured, or say nothing.
+4. No `It's not X, it's Y`. No em dashes. No emoji at the start of headings or list items.
+5. Sentences under 25 words when you can.
+6. Keep facts, commands, links and code exactly as they are.
+
+Then reread what you wrote and fix anything that breaks these rules.
